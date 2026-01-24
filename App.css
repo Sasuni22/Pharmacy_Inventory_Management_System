@@ -1,0 +1,195 @@
+/* ------------------ Global ------------------ */
+body {
+  font-family: 'Inter', sans-serif;
+  background-color: rgba(48, 54, 79, 0.2);
+  margin: 0;
+  padding: 0;
+}
+
+/* ------------------ Containers ------------------ */
+.container {
+  max-width: 900px;
+  margin: 50px auto;
+  padding: 20px;
+  background-color: #E1D9BC;
+  border-radius: 12px;
+  box-shadow: 0 8px 20px rgba(0,0,0,0.2);
+}
+
+/* Login container smaller width */
+.login-container {
+  max-width: 400px;
+}
+
+/* ------------------ Headings ------------------ */
+h1, h2 {
+  color: #30364F;
+  text-align: center;
+}
+
+/* ------------------ Form ------------------ */
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+label {
+  font-weight: bold;
+  color: #30364F;
+}
+
+input[type="text"], input[type="password"], input[type="number"], input[type="date"] {
+  padding: 10px;
+  border: 1px solid #ACBAC4;
+  border-radius: 6px;
+  outline: none;
+  font-size: 16px;
+}
+
+input:focus {
+  border-color: #30364F;
+  box-shadow: 0 0 0 2px rgba(48,54,79,0.3);
+}
+
+button {
+  padding: 10px 15px;
+  border: none;
+  border-radius: 6px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: all 0.2s ease-in-out;
+}
+
+/* ------------------ Login Button ------------------ */
+.login-btn {
+  background-color: #30364F;
+  color: #F0F0DB;
+}
+
+.login-btn:hover {
+  background-color: #ACBAC4;
+  color: #30364F;
+}
+
+/* ------------------ Error ------------------ */
+.error {
+  color: red;
+  text-align: center;
+}
+
+/* ------------------ Dashboard Header ------------------ */
+.dashboard-header {
+  position: relative;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.dashboard-header h1 {
+  margin: 0;
+}
+
+.dashboard-header .logout-btn {
+  position: absolute;
+  top: 0;
+  right: 0;
+  padding: 8px 15px;
+  font-weight: bold;
+  background-color: #D9534F;
+  color: #F0F0DB;
+  border: none;
+  border-radius: 6px;
+}
+
+.dashboard-header .logout-btn:hover {
+  background-color: #B02A2A;
+}
+
+/* ------------------ Table ------------------ */
+table {
+  width: 100%;
+  border-collapse: collapse;
+  border-radius: 12px;
+  overflow: hidden;
+  box-shadow: 0 4px 15px rgba(0,0,0,0.15);
+  margin-top: 20px;
+}
+
+th {
+  background-color: #30364F;
+  color: #F0F0DB;
+  padding: 10px;
+  text-align: center;
+}
+
+td {
+  padding: 10px;
+  text-align: center;
+  border-bottom: 1px solid #ACBAC4;
+}
+
+/* ------------------ Table Buttons ------------------ */
+td button {
+  padding: 5px 10px;
+  margin: 0 3px;
+  font-size: 14px;
+}
+
+td button:first-child {
+  background-color: #ACBAC4;
+  color: #30364F;
+}
+
+td button:first-child:hover {
+  background-color: #F0F0DB;
+}
+
+td button:last-child {
+  background-color: #D9534F;
+  color: #F0F0DB;
+}
+
+td button:last-child:hover {
+  background-color: #B02A2A;
+}
+
+/* ------------------ Add/Edit Form Buttons ------------------ */
+.add-btn {
+  background-color: #30364F;
+  color: #F0F0DB;
+}
+
+.add-btn:hover {
+  background-color: #ACBAC4;
+  color: #30364F;
+}
+
+.cancel-btn {
+  background-color: #D9534F;
+  color: #F0F0DB;
+}
+
+.cancel-btn:hover {
+  background-color: #B02A2A;
+}
+
+.form-buttons {
+  display: flex;
+  gap: 10px;
+  justify-content: center;
+  margin-top: 10px;
+}
+.stock.in-stock { color: green; font-weight: 600; }
+.stock.low-stock { color: orange; font-weight: 600; }
+.stock.out-of-stock { color: red; font-weight: 600; }
+.btn.restock-btn { background-color: #34d85a; color: #F0F0DB; }
+.restock-btn:hover { background-color: #1e7e34; }
+
+.btn.sell-btn {
+  background-color: #007BFF;
+  color: #F0F0DB;
+  margin-left: 3px;
+}
+.btn.sell-btn:hover {
+  background-color: #0056b3;
+}
