@@ -47,25 +47,6 @@ A **full-stack Pharmacy Inventory Management System** designed to efficiently ma
 
 ---
 
-## 📂 Project Structure
-
-```
-pharmacy-inventory-management/
-│
-├── frontend/              # React.js application
-│
-├── backend/               # Django project
-│   ├── api/               # REST API apps
-│   ├── models.py          # Database models
-│   ├── serializers.py     # DRF serializers
-│   ├── views.py           # API views
-│   └── urls.py            # API routes
-│
-└── db.sqlite3             # SQLite database (development)
-```
-
----
-
 ## ⚙️ Installation & Setup
 
 ### Prerequisites
@@ -97,8 +78,6 @@ python manage.py migrate
 python manage.py runserver
 ```
 
-Backend will run at: `http://localhost:8000`
-
 ---
 
 ### 3️⃣ Frontend Setup (React.js)
@@ -108,8 +87,6 @@ cd frontend
 npm install
 npm start
 ```
-
-Frontend will run at: `http://localhost:3000`
 
 ---
 
@@ -121,11 +98,6 @@ Frontend will run at: `http://localhost:3000`
 4. Unauthorized access is blocked automatically
 
 ---
-
-## 📸 Screenshots (Optional)
-
-*Add screenshots or demo GIFs to showcase the dashboard and features.*
-
 ---
 
 ## 🌱 Future Enhancements
@@ -136,23 +108,3 @@ Frontend will run at: `http://localhost:3000`
 * Reports and analytics dashboard
 * Deployment with PostgreSQL and Docker
 
----
-
-## 🤝 Contributing
-
-Contributions are welcome! Fork the repository and submit a pull request.
-
----
-
-## 📄 License
-
-This project is licensed under the **MIT License**.
-
----
-
-## 👤 Author
-
-**Pathirage**
-Full-Stack Developer
-
-If you find this project useful, consider giving it a ⭐
